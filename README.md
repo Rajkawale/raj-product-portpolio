@@ -21,7 +21,7 @@
     <br/>
 This portfolio application was built using React and is designed to showcase my projects. It features a dynamic and visually appealing layout. <br/>
       <br/>
-      Built by: Michael Yeates
+      Built by: Raj Kawale
       <br/>
       <br/>
       <a href="https://github.com/mdyeates/my-portfolio"><strong>Explore the docs »</strong></a>
@@ -80,7 +80,7 @@ This portfolio application was built using React and is designed to showcase my 
 
 [![My React Portfolio Screen Shot][product-screenshot4]](https://michaelyeates.co.uk)
 
-  <p align="right"><a href="#readme-top">back to top</a></p>
+  <p align="right"><servea href="#readme-top">back to top</serve a></p>
   
   ### Built With
   
@@ -90,7 +90,7 @@ This portfolio application was built using React and is designed to showcase my 
   
   ### Description
   
-  This is the initial version of my portfolio website, built with React. It presents a comprehensive showcase of my projects. The design places a strong emphasis on a mobile-first approach, delivering a professional and polished look through the use of a carefully chosen color palette.
+  This is the initial of my portfolio website, built with React. It presents a comprehensive showcase of my projects. The design places a strong emphasis on a mobile-first approach, delivering a professional and polished look through the use of a carefully chosen color palette.
   
   <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -152,7 +152,7 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 
 If you have any inquiries, don't hesitate to reach out to me via socials or by sending an email to <a href="mailto:michael-yeates@outlook.com">michael-yeates@outlook.com</a>
 
-<a href="https://www.linkedin.com/in/mdyeates/">LinkedIn</a> | <a href="https://github.com/mdyeates/">GitHub</a>
+<a href="https://www.linkedin.com/in/raj-kawale/">LinkedIn</a> | <a href="https://github.com/mdyeates/">GitHub</a>
 
 Project Link: [https://github.com/mdyeates/my-portfolio](https://github.com/mdyeates/my-portfolio)
 

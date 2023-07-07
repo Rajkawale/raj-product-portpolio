@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import landingImage from "../../images/me.svg";
+import landingImage from "../../images/raj.svg";
 import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
 
@@ -52,14 +52,14 @@ const Landing = ({ name }) => {
             onInit={(typewriter) => {
               typewriter
                 .changeDelay(80)
-                .typeString("I'm a Software Engineer")
+                .typeString("I'm a Product Manager")
                 .pauseFor(1500)
                 .deleteAll()
-                .typeString("Code. ")
+                .typeString("Think.")
                 .pauseFor(500)
-                .typeString("Create. ")
+                .typeString("Build.")
                 .pauseFor(500)
-                .typeString("Innovate.")
+                .typeString("Innovate")
 
                 .start();
             }}
@@ -74,7 +74,7 @@ const Landing = ({ name }) => {
           transition={{ duration: 1, ease: "easeInOut" }}
           style={styles.landingImage}
           src={landingImage}
-          alt="Michael Yeates"
+          alt="Raj Kawale"
         />
       </div>
       <SocialIcons />
