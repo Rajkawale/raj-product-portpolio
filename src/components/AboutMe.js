@@ -44,7 +44,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
         >
           <img src={aboutMeImg} alt={name} />
            </motion.div>
-          <motion.div
+            <motion.div
            className="personalInfo col-12 col-lg-8"
           ref={ref}
           initial={{ x: "10vw", opacity: 0 }}

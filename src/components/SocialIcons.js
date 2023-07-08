@@ -16,6 +16,9 @@ const SocialIcons = () => {
       <a className="icon" style={styles.icon} href="https://www.linkedin.com/in/raj-kawale/">
         <i className="fa-brands fa-linkedin" aria-hidden="true" title="Raj Kawale' LinkedIn Profile"></i>
       </a>
+      <a className="icon" style={styles.icon} href="https://raj-dairy.blogspot.com/">
+        <i className="fa-brands fa-blogger-b" aria-hidden="true" title="Raj Kawale' Blog Profile"></i>
+      </a>
     </div>
   );
 };

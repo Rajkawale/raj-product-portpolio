@@ -28,6 +28,9 @@ const NavLinks = () => {
         <NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>
           Contact
         </NavLink>
+        <NavLink to= { {pathname: "https://raj-dairy.blogspot.com"}} target= "_blank" onClick={() => setIsMenuOpen(false)}>
+          Blog
+        </NavLink>
       </nav>
     </>
   );

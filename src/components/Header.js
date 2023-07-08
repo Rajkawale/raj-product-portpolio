@@ -6,7 +6,7 @@ const Header = () => {
     <header className="header">
       <img className="logo" src={logo} alt="raj' Logo" />
       <NavLinks />
-    </header>
+     </header>
   );
 };
 
