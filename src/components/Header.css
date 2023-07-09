@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    height: 80px;
+    background-color: #101010;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  

@@ -1,12 +1,12 @@
+import React from 'react';
 import NavLinks from "./NavLinks";
-import logo from "../images/logo.svg";
+import './Header.css'; // import the CSS file
 
 const Header = () => {
   return (
     <header className="header">
-      <img className="logo" src={logo} alt="raj' Logo" />
       <NavLinks />
-     </header>
+    </header>
   );
 };
 
