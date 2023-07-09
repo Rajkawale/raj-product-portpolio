@@ -20,17 +20,17 @@ const NavLinks = () => {
           Home
         </NavLink>
         <NavLink to="/about" onClick={() => setIsMenuOpen(false)}>
-          About
+         About
         </NavLink>
         <NavLink to="/portfolio" onClick={() => setIsMenuOpen(false)}>
-          Portfolio
+         Portfolio
         </NavLink>
         <NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>
-          Contact
+         Contact
         </NavLink>
-        <NavLink to= { {pathname: "https://blog.rajkawale.com"}} target= "_blank" onClick={() => setIsMenuOpen(false)}>
-          Blog
-        </NavLink>
+        <a href="https://blog.rajkawale.com" target="_blank" rel="noreferrer" onClick={() => setIsMenuOpen(false)}>
+         Blog
+          </a>
       </nav>
     </>
   );
