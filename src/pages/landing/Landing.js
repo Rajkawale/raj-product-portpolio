@@ -1,10 +1,21 @@
+import { useEffect } from "react";
+
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import landingImage from "../../images/raj.svg";
 import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
+import { fetchDataFromApi } from "../../utils/api";
 
 const Landing = ({ name }) => {
+
+       useEffect (() => {
+         getproducts();
+       }, [] );
+
+       const getproducts = () => {
+        fetchDataFromApi ("/api/products?populate=*").then((res) => console.log(res));
+       };
   const styles = {
     landing: {
       height: "calc(100% - 93px)",
