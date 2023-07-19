@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- This is the meta tag for the character encoding -->
     <meta charset="utf-8" />
+    <!-- This is the meta tag for the viewport settings -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- no favicon -->
-    <meta name="author" content="Raj Kawale" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Product Manager."
-    />
+    <!-- This is the link tag for the favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- This is the link tag for the font awesome icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -17,6 +15,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- This is the link tag for the bootstrap grid system -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap-grid.min.css"
@@ -24,15 +23,57 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- This is the title tag for the website -->
     <title>Raj Kawale | Product Manager </title>
-    <!-- Open Graph meta tags -->
+    <!-- This is the meta tag for the author name -->
+    <meta name="author" content="Raj Kawale" />
+    <!-- This is the meta tag for the theme color -->
+    <meta name="theme-color" content="#000000" />
+    <!-- This is the meta tag for the description -->
+    <meta name="description" content="Product Manager" />
+    <!-- This is the meta tag for the keywords -->
+    <meta name="keywords" content="product manager, portfolio, raj kawale, raj, kawale, blog" />
+    <!-- This is the meta tag for the robots settings -->
+    <meta name="robots" content="index,follow" 
+    />
+    <!-- These are the meta tags for social media platforms -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Raj Kawale | Product Manager" />
+    <meta property="og:locale" content="en_IN" />
+    <meta name="linkedin:site" content="/in/rajkawale/" />
+    <meta name="linkedin:creator" content="/in/rajkawale/" />
+    <meta property="og:title" content="Raj Kawale | Product Manager " />
+    <meta property="og:url" content="https://www.rajkawale.com/" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Raj Kawale | Product Manager " />
-    <meta property="og:description" content="Product Manager." />
-    <meta property="og:url" content="https://www.rajkawale.com/" />
-    <meta property="og:image" content="https://www.rajkawale.com/static/media/aboutme.6752462b6a046c0a3926.jpeg" />
+    <meta property="og:description" content="As a product manager with over 3 years of experience, Raj Kawale has built innovative products for various domains. He excels at empathy, problem-solving, and strategic thinking. He loves learning new technologies and exploring new opportunities" />
+    <meta property="og:image" content="/static/media/aboutme.6752462b6a046c0a3926.jpeg" />
+
+    
   </head>
   <body>
-    <div id="root"></div>
+     <!-- This is the div element that contains the root component of React -->
+     <div id ="root"></div>
+     <!-- This is the script tag for the structured data -->
+     <script type ="application/ld+json">
+       {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Raj Kawale",
+        "url": "https://rajkawale.com/",
+        "image": "/static/media/aboutme.6752462b6a046c0a3926.jpeg",
+        "description":"Raj Kawale is a product manager with 3+ years of experience in building innovative products for various domains. He is skilled in empathy, problem-solving, and strategic thinking. He is also passionate about learning new technologies and exploring new opportunities." />
+        "jobTitle": "Product Manager",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Purple Style Labs"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/rajkawale/",
+        ]
+      }
+     </script>
+     <!-- This is the script tag for the external JavaScript file -->
+     <script src="script.js" type="text/javascript"></script>
   </body>
 </html>
