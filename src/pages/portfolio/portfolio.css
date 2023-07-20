@@ -84,67 +84,72 @@
 .modalTitle {
   text-align: center;
   margin-bottom: 10px;
-  color: white;
 }
 
 .projectDescription {
-  margin-bottom: 10px;
+    margin-bottom :10px
 }
-
 /* --- MEDIA QUEIRES --- */
 
-@media (min-width: 750px) {
-  .projectCard {
-    flex-direction: row;
-    padding: var(--sm-spacing) !important;
-    height: 350px;
-  }
+@media (min-width :750px) {
+    .projectCard {
+        flex-direction :row;
+        padding :var(--sm-spacing) !important;
+        height :350px
+    }
 
-  .portfolio {
-    padding-left: var(--spacing);
-    padding-right: var(--spacing);
-  }
+    .portfolio {
+        padding-left :var(--spacing);
+        padding-right :var(--spacing)
+    }
 
-  .imageContainer {
-    transform: translateX(30%);
-    transition: all 0.3s ease-in-out;
-  }
+    .imageContainer {
+        transform :translateX(30%);
+        transition :all .3s ease-in-out
+    }
 
-  .projectCard:hover .imageContainer {
-    transform: translateX(-70%);
-  }
+    .projectCard:hover .imageContainer {
+        transform :translateX(-70%)
+    }
 
-  .projectCard:hover .textWrap {
-    transform: translateX(-250%);
-  }
+    .projectCard:hover .textWrap {
+        transform :translateX(-250%)
+    }
 
-  .projectCard:hover::before {
-    opacity: 0;
-  }
+    .projectCard:hover::before {
+        opacity :0
+    }
 
-  .projectCard:hover .imageContainer img {
-    scale: 1.4;
-  }
+    .projectCard:hover .imageContainer img {
+        scale :1.4
+    }
 
-  .imageContainer {
-    transform: translateX(30%);
-    transition: all 0.3s ease-in-out;
-  }
+    .imageContainer {
+        transform :translateX(30%);
+        transition:all .3s ease-in-out
+    }
 
-  .textWrap {
-    text-shadow: none;
-  }
+    .textWrap {
+        text-shadow :none
+    }
 
-  .projectTitle {
-    font-size: 30px;
-    padding: 10px 0;
-  }
+    .projectTitle {
+        font-size :30px;
+        padding :10px 0
+    }
 
-  .viewWork {
-    font-size: 16px;
-  }
+    .viewWork {
+        font-size :16px
+    }
 
-  .tech {
-    font-size: 14px;
-  }
+    .tech {
+        font-size :14px
+    }
+}
+   .loading {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
 }
