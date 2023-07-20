@@ -67,7 +67,7 @@ body {
 
 .socialIcons .icon:hover {
   scale: 1.2;
-  color: var(--hl-color);
+  color: var(--hl-color)
 }
 
 .btn {
