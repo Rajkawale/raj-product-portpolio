@@ -52,7 +52,7 @@ const Form = () => {
           setSuccess(false);
         }, 3000);
       })
-      .catch((err) => console.log(err));
+      // .catch((err) => console.log(err));
   };
 
   return (
