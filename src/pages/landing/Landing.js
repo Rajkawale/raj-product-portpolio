@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import landingImage from "../../images/raj.svg";
+import landingImage from "../../images/raj2.svg";
 import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
 // import { fetchDataFromApi } from "../../utils/api";

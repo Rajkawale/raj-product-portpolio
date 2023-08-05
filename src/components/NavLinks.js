@@ -19,15 +19,18 @@ const NavLinks = () => {
         <NavLink to="/" onClick={() => setIsMenuOpen(false)}>
           Home
         </NavLink>
-        <NavLink to="/about" onClick={() => setIsMenuOpen(false)}>
+        {/* <NavLink to="/about" onClick={() => setIsMenuOpen(false)}>
          About
-        </NavLink>
-        <NavLink to="/portfolio" onClick={() => setIsMenuOpen(false)}>
+        </NavLink> */}
+        {/* <NavLink to="/portfolio" onClick={() => setIsMenuOpen(false)}>
          Portfolio
-        </NavLink>
-        <NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>
+        </NavLink> */}
+        {/* <NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>
          Contact
-        </NavLink>
+        </NavLink> */}
+         <a href="https://portfolio.rajkawale.com/" target="_blank" rel="noreferrer" onClick={() => setIsMenuOpen(false)}>
+         Portfolio
+          </a>
         <a href="https://blog.rajkawale.com" target="_blank" rel="noreferrer" onClick={() => setIsMenuOpen(false)}>
          Blog
           </a>
