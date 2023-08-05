@@ -2,10 +2,9 @@ import { useEffect } from "react";
 
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import landingImage from "../../images/raj2.svg";
+import landingImage from "../../images/raj3.svg";
 import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
-// import { fetchDataFromApi } from "../../utils/api";
 
 const Landing = ({ name }) => {
 
@@ -14,7 +13,6 @@ const Landing = ({ name }) => {
        }, [] );
 
        const getproducts = () => {
-        // fetchDataFromApi ("/api/products?populate=*").then((res) => console.log(res));
        };
   const styles = {
     landing: {
@@ -26,8 +24,8 @@ const Landing = ({ name }) => {
 
     landingImage: {
       position: "absolute",
-      bottom: "0",
-      opacity: "0.3",
+      bottom: "10",
+      opacity: "10",
       mixBlendMode: "lighten",
       height: "80%",
     },

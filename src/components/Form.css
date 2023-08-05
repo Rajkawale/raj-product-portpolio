@@ -1,0 +1,30 @@
+
+
+.popup-content {
+    background-color: #0c0c0c;
+    padding: 50px;
+    margin: center;
+    display: flex; justify-content: center; align-items: center; 
+   
+}
+
+.popup-title { 
+    font-size: center; 
+    font-weight: bold; 
+    color: #18ff71; 
+    text-align: center; 
+}
+
+.popup-message {
+    font-size: center; 
+    font-weight: normal; 
+    color: #595959; 
+    text-align: center; 
+}
+
+/* .popup-icon {
+    width: center; 
+    height: top; 
+    display: block; 
+    margin-left: auto; margin-right: auto; 
+} */

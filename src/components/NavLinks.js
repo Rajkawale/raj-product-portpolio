@@ -25,15 +25,15 @@ const NavLinks = () => {
         {/* <NavLink to="/portfolio" onClick={() => setIsMenuOpen(false)}>
          Portfolio
         </NavLink> */}
-        {/* <NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>
-         Contact
-        </NavLink> */}
          <a href="https://portfolio.rajkawale.com/" target="_blank" rel="noreferrer" onClick={() => setIsMenuOpen(false)}>
          Portfolio
           </a>
         <a href="https://blog.rajkawale.com" target="_blank" rel="noreferrer" onClick={() => setIsMenuOpen(false)}>
          Blog
           </a>
+          <NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>
+         Contact
+        </NavLink>
       </nav>
     </>
   );

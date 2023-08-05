@@ -1,3 +1,7 @@
+// Import Popup from reactjs-popup and some CSS styles from the module
+import Popup from "reactjs-popup";
+import "reactjs-popup/dist/index.css";
+import "./Form.css";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { useState } from "react";
@@ -15,7 +19,7 @@ const Form = () => {
     email: "",
     subject: "",
     message: "",
-    access_key: process.env.REACT_APP_ACCESS_KEY,
+    access_key: "860a9842-f120-4f4d-bb63-e2701036172a"
   });
 
   const handleChange = (e) => {
@@ -62,7 +66,7 @@ const Form = () => {
       className="contactForm"
       initial={{ x: "-10vw", opacity: 0 }}
       animate={inView ? { x: 0, opacity: 1 } : { x: "-10vw", opacity: 0 }}
-      transition={{ duration: 0.4, ease: "easeInOut" }}
+      transition={{ duration: 0.3, ease: "easeInOut" }}
       onSubmit={handleSubmit}
     >
       <h4 className="contentTitle">Message Me</h4>
@@ -115,10 +119,19 @@ const Form = () => {
         ></textarea>
       </div>
       <div className="col-12 formGroup formSubmit">
-        <button className="btn">{success ? "Message Sent" : "Send Message"}</button>
+        <Popup
+          trigger={<button className="btn">{success ? "Message Sent" : "Send Message"}</button>}
+          position="right center"
+          closeOnDocumentClick
+          modal
+        >
+         <div>
+           <h3 className="popup-title">Thank you</h3>
+           <p className="popup-message">I appreciate your message and I will get in touch with you soon.</p>
+         </div>
+        </Popup>
       </div>
     </motion.form>
-  );
-};
-
-export default Form;
+    );
+  };
+  export default Form;
