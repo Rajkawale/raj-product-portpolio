@@ -24,7 +24,7 @@ const Landing = ({ name }) => {
 
     landingImage: {
       position: "absolute",
-      bottom: "10",
+      bottom: "0",
       opacity: "10",
       mixBlendMode: "lighten",
       height: "80%",
