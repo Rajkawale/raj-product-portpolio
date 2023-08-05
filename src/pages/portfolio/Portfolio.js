@@ -60,7 +60,6 @@ const Portfolio = (props) => {
     .map((project1, i) => {
       let project = project1.attributes;
       let img = project.project_image.data[0].attributes.url;
-      // console.log("sort", project.project_id);
       return (
         <Project
           key={i}
