@@ -31,6 +31,9 @@ const NavLinks = () => {
         <a href="https://blog.rajkawale.com" target="_blank" rel="noreferrer" onClick={() => setIsMenuOpen(false)}>
          Blog
           </a>
+          <a href="https://portfolio.rajkawale.com/testimonials" target="_blank" rel="noreferrer" onClick={() => setIsMenuOpen(false)}>
+          Testinomials
+          </a>
           <NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>
          Contact
         </NavLink>
