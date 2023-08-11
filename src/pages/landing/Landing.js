@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import landingImage from "../../images/raj3.svg";
+// import landingImage from "../../images/aboutme.svg";
 import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
 
@@ -77,13 +77,13 @@ const Landing = ({ name }) => {
       </div>
       <div className="image-container">
         <motion.img
-          className="landingImage"
+          // className="landingImage"
           initial={{ opacity: 0 }}
           animate={{ opacity: 0.4 }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          style={styles.landingImage}
-          src={landingImage}
-          alt="Raj Kawale"
+          // style={styles.landingImage}
+          // src={landingImage}
+          // alt="Raj Kawale"
         />
       </div>
       <SocialIcons />
