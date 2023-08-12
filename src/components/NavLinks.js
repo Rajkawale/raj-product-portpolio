@@ -25,13 +25,13 @@ const NavLinks = () => {
         {/* <NavLink to="/portfolio" onClick={() => setIsMenuOpen(false)}>
          Portfolio
         </NavLink> */}
-         <a href="https://portfolio.rajkawale.com/" target="_blank" rel="noreferrer" onClick={() => setIsMenuOpen(false)}>
+         <a href="https://portfolio.rajkawale.com/" rel="noreferrer" onClick={() => setIsMenuOpen(false)}>
          Portfolio
           </a>
-        <a href="https://blog.rajkawale.com" target="_blank" rel="noreferrer" onClick={() => setIsMenuOpen(false)}>
+        <a href="https://blog.rajkawale.com" rel="noreferrer" onClick={() => setIsMenuOpen(false)}>
          Blog
           </a>
-          <a href="https://portfolio.rajkawale.com/testimonials" target="_blank" rel="noreferrer" onClick={() => setIsMenuOpen(false)}>
+          <a href="https://portfolio.rajkawale.com/testimonials" rel="noreferrer" onClick={() => setIsMenuOpen(false)}>
           Testinomials
           </a>
           <NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>
