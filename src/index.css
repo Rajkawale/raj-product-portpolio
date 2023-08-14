@@ -86,6 +86,17 @@ body {
 }
 
 /* --- MOBILE STYLES --- */
+@media (max-width: 750px) {
+  header {
+    padding: var(--sm-spacing) var(--spacing);
+    color: var(--text-color);
+    display: flex;
+    justify-content: left !important;
+    align-items: left !important;
+    margin-left: 10px;
+  }
+  
+}
 
 /* --- HEADER ---  */
 header {
