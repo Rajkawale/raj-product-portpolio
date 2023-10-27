@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
-// import resume from "../pages/about/michael-yeates-resume.pdf";
+import resume from "../pages/about/raj_resume.pdf";
 
 const AboutMe = ({ name, email, location, availability, brand }) => {
   const [ref, inView] = useInView({
@@ -17,18 +17,18 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
      setDownloading(false);
    }, [downloading]);
 
-  //  const handleDownload = () => {
-  //    setDownloading(true);
-  //    const link = document.createElement("a");
-  //   //  link.href = resume;
-  //    link.download = "Michael-Yeates-Resume.pdf";
-  //    link.onload = () => {
-  //      link.remove();
-  //      setDownloading(false);
-  //    };
-  //    document.body.appendChild(link);
-  //    link.click();
-  //  };
+   const handleDownload = () => {
+     setDownloading(true);
+     const link = document.createElement("a");
+     link.href = resume;
+     link.download = "raj_resume.pdf";
+     link.onload = () => {
+       link.remove();
+       setDownloading(false);
+     };
+     document.body.appendChild(link);
+     link.click();
+   };
 
   return (
     <div>
@@ -53,11 +53,11 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
          >
            <div className="contentContainer">
             <h4>Nice to meet you</h4>
-            <h5>I'm a product manager who crafts amazing digital experiences!</h5>
+            <h5>I'm a data-driven and user-centric product manager</h5>
             <div className="contentDescription">
                <div className="contentDescription">
                  <p>
-                   I am an associate product manager at Purple Style Labs, where I work on building products that make fashion lovers happy. I have over 3 years of experience in product management, strategy, and entrepreneurship.<br/><br/>
+                 Experience in launching and scaling web and mobile applications across various domains, including fashion, luxury, supply chain, and agri-tech. I use data-driven decision-making and a user-centric approach to create products that solve real-world problems and provide value.<br/><br/>
 
                  </p>
                </div>
@@ -88,7 +88,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                </div>
              </div>
              <div className="buttonContainer">
-               <button className="btn downloadCV" /*onClick={handleDownload}*/ disabled={downloading}>
+               <button className="btn downloadCV" onClick={handleDownload} /*disabled={downloading}*/>
                  {downloading ? "Downloading..." : "Download Resume"}
                </button>{" "}
                <SocialIcons />

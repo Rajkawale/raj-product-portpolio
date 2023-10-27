@@ -19,9 +19,6 @@ const NavLinks = () => {
         <NavLink to="/" onClick={() => setIsMenuOpen(false)}>
           Home
         </NavLink>
-        {/* <NavLink to="/about" onClick={() => setIsMenuOpen(false)}>
-         About
-        </NavLink> */}
         {/* <NavLink to="/portfolio" onClick={() => setIsMenuOpen(false)}>
          Portfolio
         </NavLink> */}
@@ -34,6 +31,9 @@ const NavLinks = () => {
           <a href="https://portfolio.rajkawale.com/testinomials" rel="noreferrer" onClick={() => setIsMenuOpen(false)}>
           Testinomials
           </a>
+          <NavLink to="/about" onClick={() => setIsMenuOpen(false)}>
+         Resume
+          </NavLink>
           <NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>
          Contact
         </NavLink>
