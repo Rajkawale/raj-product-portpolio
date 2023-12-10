@@ -53,11 +53,11 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
          >
            <div className="contentContainer">
             <h4>Nice to meet you</h4>
-            <h5>I'm a data-driven and user-centric product manager</h5>
+            <h5>Product Manager with a four-year trajectory of initiating and scaling innovative tech solutions</h5>
             <div className="contentDescription">
                <div className="contentDescription">
                  <p>
-                 Experience in launching and scaling web and mobile applications across various domains, including fashion, luxury, supply chain, and agri-tech. I use data-driven decision-making and a user-centric approach to create products that solve real-world problems and provide value.<br/><br/>
+                 As a Product Manager with a flair for technological innovation, I’ve spearheaded initiatives in e-commerce, agri-tech, among others. My self-founded venture boasts a monthly revenue of INR 60,000. With a data-driven strategy and user-centric approach, I’ve successfully developed over 20 products, catalyzing progress in the dynamic tech industry.<br/><br/>
 
                  </p>
                </div>
