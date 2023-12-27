@@ -29,7 +29,7 @@ const NavLinks = () => {
          Blog
           </a>
           <a href="https://portfolio.rajkawale.com/testimonials" rel="noreferrer" onClick={() => setIsMenuOpen(false)}>
-          Testinomials
+          Testimonials
           </a>
           {/* <NavLink to="/about" onClick={() => setIsMenuOpen(false)}>
          Resume
